@@ -2,6 +2,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -16,6 +27,11 @@ ol {
 button {
   cursor: pointer;
   border: none;
+}
+
+img,
+svg {
+  display: block;
 }
 
 .container {
@@ -76,3 +92,149 @@ button {
 /* #endregion */
 
 /* !HERO */
+
+/* !ABOUT */
+.about {
+  background-image: url("../images/about-bg-min.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 824px;
+
+  position: relative;
+
+  margin-bottom: 100px;
+}
+
+.about-apple-image {
+  position: absolute;
+  bottom: 43px;
+}
+
+.about .container {
+  display: flex;
+  gap: 90px;
+}
+
+.about-content-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 51px;
+  bottom: 100px;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #2c2c2c;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.about-list {
+  display: flex;
+  gap: 67px;
+}
+
+.about-item {
+  max-width: 253px;
+}
+
+.about-svg-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #fefefe;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.about-svg {
+  fill: #7eb101;
+}
+
+.about-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #2c2c2c;
+  margin-bottom: 16px;
+}
+
+.about-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+.about-btn {
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 106px;
+  height: 40px;
+  background: #fff;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+
+  margin-top: 32px;
+}
+
+/* !DISH */
+.dish .container {
+}
+
+.dish-title {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+
+.dish-text {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.dish-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px;
+  margin-top: 40px;
+}
+
+.dish-item {
+  border: 16px solid #ffe550;
+  border-radius: 197px;
+  width: 395px;
+  height: 397px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dish-img {
+  max-width: 315px;
+  max-height: 315px;
+}
