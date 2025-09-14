@@ -199,6 +199,7 @@ svg {
 
 /* !DISH */
 .dish .container {
+  padding-bottom: 100px;
 }
 
 .dish-title {
@@ -237,4 +238,72 @@ svg {
 .dish-img {
   max-width: 315px;
   max-height: 315px;
+}
+
+/* !customer */
+
+.customer {
+  background-color: #ffe550;
+  background-image: url(../images/yellow-bg-min.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.customer .container {
+}
+
+.customer-title {
+  font-weight: 700;
+  font-size: 42px;
+  color: #2c2c2c;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.customer-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2c2c2c;
+  margin-bottom: 32px;
+}
+
+.customer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-item {
+  width: 501px;
+  height: 227px;
+  background-color: #fefefe;
+  padding: 14px;
+
+  border-radius: 0 30px 30px 30px;
+}
+
+.customer-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #2c2c2c;
+  margin-bottom: 40px;
+}
+
+.customer-photo-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.customer-box-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+.customer-box-dscr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
 }
