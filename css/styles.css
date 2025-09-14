@@ -307,3 +307,55 @@ svg {
   line-height: 1.5;
   color: #2c2c2c;
 }
+
+/* ! */
+
+.footer {
+  background-color: antiquewhite;
+  background-image: url(../images/fruits-bg-min.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.footer.container {
+}
+
+.header-logo-link {
+}
+
+.header-logo-img {
+}
+
+.header-nav {
+}
+
+.header-nav-list {
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+}
+
+.footer-form {
+}
+
+.footer-label {
+}
+
+.footer-input {
+}
+
+.footer-btn {
+}
+
+.footer-form-text {
+}
+
+.footer-link {
+}
+
+.footer-dscr {
+}
