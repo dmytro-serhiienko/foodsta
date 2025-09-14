@@ -321,6 +321,12 @@ svg {
 .footer.container {
 }
 
+.menu-box {
+  display: flex;
+  align-items: center;
+  gap: 148px;
+}
+
 .header-logo-link {
 }
 
@@ -343,19 +349,72 @@ svg {
 }
 
 .footer-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
 }
 
 .footer-input {
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 279px;
+  height: 42px;
+}
+
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
 }
 
 .footer-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  border: 0.85px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 103px;
+  height: 42px;
+  background-color: transparent;
 }
 
 .footer-form-text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c2c2c;
+}
+
+.footer-foem-text-privacy {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #7eb101;
 }
 
 .footer-link {
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #7eb101;
 }
 
 .footer-dscr {
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c2c2c;
+}
+
+.footer-end-box {
+}
+
+.footer-link-list {
+  display: flex;
+}
+
+.footer-link-item {
 }
